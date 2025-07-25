@@ -254,7 +254,7 @@
 }
 
 .l-image-2::after {
-    content: "60% Off | Bloom Plant Shop now";
+    content: "30% Off | Ana Plant Shop now";
     position: absolute;
     left: -0.1%;
     top: -0.1%;
@@ -270,12 +270,12 @@
 }
 
 .l-image-3::after {
-    content: "60% Off | Bloom Plant Shop now";
+    content: "25% Off | Zabo Plant Shop now";
     position: absolute;
     left: -0.1%;
     top: -0.1%;
     border-radius: 22px;
-    font-size: 45px;
+    font-size: 70px;
     font-weight: 700;
     text-align: center;
     align-content: center;
@@ -285,6 +285,41 @@
     z-index: 1;
 }
 
+                             /* joining section */
+
+.joining-section {
+    margin: 120px 250px 0px;
+    background-image: url(./assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 500px;
+    text-align: center;
+    align-content:center ;
+}
+
+.joining-h1 {
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.email-input {
+    width: 600px;
+    padding: 15px 0px 15px 20px;
+    border: none;
+}
+
+.subscription {
+    padding: 15px 53.5px;
+    margin-left: -5px;
+    border: none;
+    color: white;
+    background-color: #E95A08;
+}
+
+.form {
+    align-content: center;
+}
 
 @media screen and (max-width: 430px) {
     .margin-retracting {
@@ -297,7 +332,7 @@
     }
     
     .l-image-3::after {
-    content: "60% Off | Bloom Plant Shop now";
+    content: "25% Off | Zabo Plant Shop now";
     position: absolute;
     left: -0.1%;
     top: -0.1%;
@@ -312,9 +347,6 @@
     z-index: 1;
     }
     
-    /* .l-deals-image-container {
-        margin: 0px 100px;
-    } */
 
     .l-description {
         text-align: center;
@@ -350,4 +382,19 @@
     .about-showcase-section {
         margin-left: 100px;
     }
+
+    .joining-section {
+        width: 100%;
+    }
+
+    .email-input {
+        width: 200px;
+    }
+
+    .joining-h1 {
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight: 400;
+}
+
 }
