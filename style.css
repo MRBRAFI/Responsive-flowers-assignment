@@ -44,7 +44,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 150px;
+    margin: 0px 350px;
 }
 
 .imp-links {
@@ -76,7 +76,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 282px 150px 0px 150px;
+    margin: 282px 350px 0px 350px;
 }
 
 .freshness {
@@ -96,11 +96,12 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     row-gap: 30px;
+    margin: 0px 350px;
 }
 
 .about-showcase-section {
     text-align: center;
-    margin: 120px 0px 49px 0px;
+    margin: 120px 350px 49px 350px;
 
 }
 
@@ -136,17 +137,61 @@
     padding: 19px 90px;
 }
 
+                          /* trusted section */
+
+.trusted-section {
+    display: flex;
+    margin: 210px 350px;
+    gap: 100px;
+}
+
+.trusted-image {
+    position: relative;
+}
+
+.flower-and-plants {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.trusted-badge {
+    position: absolute;
+    height: 286px;
+    width: 286px;
+    margin-left: -170px;
+    margin-top: -100px;
+}
+
+.plants-description-1 {
+    width: 40%;
+}
+
+.plants-description-1 ul > li {
+    margin-bottom: 20px;
+}
+
 @media screen and (max-width: 430px) {
     .margin-retracting {
         margin-left: 0px;
         margin-right: 0px;
     }
-    .gayebulhawa {
+    .gayebulhawa, 
+    .trusted-badge{
         visibility : hidden;
     }
+    
+    .plants-description-1,
+    .flower-image-1  {
+        width: 100%;
+    }
 
-    .fresh-flowers-section {
+    .fresh-flowers-section
+    {
         flex-direction: column-reverse;
+    }
+
+    .trusted-section  {
+        flex-direction: column;
     }
 
     .showcase-section {
