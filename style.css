@@ -170,6 +170,122 @@
     margin-bottom: 20px;
 }
 
+                                     /* Latest deals section */
+.latest-deals-container {
+    margin: 0px 350px;
+}
+
+.latest-deals {
+    text-align:  center;
+    margin: 0px 200px 50px;
+}
+
+.l-image-1 {
+    position: relative;
+    background-image: url(./assets/deal-bloom.png);
+    width: 367px;
+    height: 201px;
+    border-radius: 22px;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: whitesmoke;
+    align-content: center;
+}
+
+.l-image-2 {
+    position: relative;
+    background-image: url(./assets/deal-ana.png);
+    width: 367px;
+    height: 201px;
+    border-radius: 22px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: whitesmoke;
+    align-content: center;
+}
+
+.l-image-3 {
+    position: relative;
+    background-image: url(./assets/deal-zabo.png);
+    width:  750px;
+    height: 420px;
+    border-radius: 22px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: whitesmoke;
+    align-content: center;
+}
+
+.l-deals-image-container {
+    display: flex;
+}
+
+.l-image-1 > a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.l-image-2 > a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.l-image-3 > a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.l-image-1::after {
+    content: "60% Off | Bloom Plant Shop now";
+    position: absolute;
+    left: -0.1%;
+    top: -0.1%;
+    border-radius: 22px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    align-content: center;
+    width: 367px;
+    height: 201px;
+    background-color: #0000006b;
+    z-index: 1;
+}
+
+.l-image-2::after {
+    content: "60% Off | Bloom Plant Shop now";
+    position: absolute;
+    left: -0.1%;
+    top: -0.1%;
+    border-radius: 22px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    align-content: center;
+    width: 367px;
+    height: 201px;
+    background-color: #0000006b;
+    z-index: 1;
+}
+
+.l-image-3::after {
+    content: "60% Off | Bloom Plant Shop now";
+    position: absolute;
+    left: -0.1%;
+    top: -0.1%;
+    border-radius: 22px;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    align-content: center;
+    width:  750px;
+    height: 420px;
+    background-color: #0000006b;
+    z-index: 1;
+}
+
+
 @media screen and (max-width: 430px) {
     .margin-retracting {
         margin-left: 0px;
@@ -180,6 +296,37 @@
         visibility : hidden;
     }
     
+    .l-image-3::after {
+    content: "60% Off | Bloom Plant Shop now";
+    position: absolute;
+    left: -0.1%;
+    top: -0.1%;
+    border-radius: 22px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    align-content: center;
+    width:  367px;
+    height: 201px;
+    background-color: #0000006b;
+    z-index: 1;
+    }
+    
+    /* .l-deals-image-container {
+        margin: 0px 100px;
+    } */
+
+    .l-description {
+        text-align: center;
+    }
+
+    .l-image-3 {
+    margin-top: 20px;
+    margin-left: -1px;
+    width:  367px;
+    height: 201px;    
+    }
+
     .plants-description-1,
     .flower-image-1  {
         width: 100%;
@@ -190,7 +337,8 @@
         flex-direction: column-reverse;
     }
 
-    .trusted-section  {
+    .trusted-section,
+    .l-deals-image-container  {
         flex-direction: column;
     }
 
